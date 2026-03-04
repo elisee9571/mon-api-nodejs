@@ -7,11 +7,13 @@ const jwt = require("jsonwebtoken");
 const User = require("../models/User");
 
 router.post("/register", async (req, res) => {
+    const { username, email, password } = req.body;
+
     try {
-        const user = User(req.body);
+        const user = User({ username, email, password });
         await user.validate();
 
-        const hash = await bcrypt.hash(user.password, 10);
+        const hash = await bcrypt.hash(password, 10);
         user.password = hash;
 
         await user.save();
@@ -56,10 +58,10 @@ router.post("/register", async (req, res) => {
 });
 
 router.post("/login", async (req, res) => {
-    const {email, password} = req.body;
+    const { email, password } = req.body;
 
     try {
-        const user = await User.findOne({email: email});
+        const user = await User.findOne({ email: email });
         if (!user) {
             return res.status(401).json({
                 error: {
