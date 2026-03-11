@@ -2,10 +2,6 @@
 ![node badge](https://img.shields.io/badge/node-v25.6.1-green)
 ![javascript badge](https://img.shields.io/badge/javascript-yellow)
 
-# Mon API nodejs
-
-***
-
 # Table des matières
 
 - [DOCUMENT DE SPÉCIFICATIONS FONCTIONNELLES][1]
@@ -14,15 +10,16 @@
 [1]: ./functional_documentation.md
 [2]: ./technical_documentation.md
 
-***
-
 ## Description du projet
+
 Il s'agit d'une API REST pour la gestion centralisé d'un forum
 
 ## A qui s'adresse ce projet ?
+
 Ce projet est destiné à des devéloppeurs qui souhaite avoir un back qui communique avec differentes plateformes
 
 ## Dépendances du projet
+
 ```JSON
 "dependencies": {
     "bcrypt": "^6.0.0",
@@ -46,6 +43,7 @@ Ce projet est destiné à des devéloppeurs qui souhaite avoir un back qui commu
 ```
 
 ## Instructions d'utilisation
+
 > Pour commencer à utiliser l'api, vous devez créer un repository en amont sur votre gitbub.
 
 ### Installer le projet
@@ -68,6 +66,7 @@ Ce projet est destiné à des devéloppeurs qui souhaite avoir un back qui commu
    ```
 
 ## Configurer
+
 Prérequis : 
 > 1. Créer une base de données sur [mongoDB](https://www.mongodb.com)
 > 2. Installer redis en local
@@ -89,6 +88,7 @@ REDIS_URL=redis://localhost:6379
 ```
 
 ## Exécuter l'API
+
 ```BASH
 npm run start
 ```
