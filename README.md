@@ -67,7 +67,7 @@ Ce projet est destiné à des devéloppeurs qui souhaite avoir un back qui commu
    ```
 
 ## Configurer
-> Prérequis : 
+Prérequis : 
 > 1. Créer une base de données sur [mongoDB](https://www.mongodb.com)
 > 2. Installer redis en local
 ```BASH

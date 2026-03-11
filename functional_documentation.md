@@ -18,9 +18,9 @@ Statut :
 
 ## HISTORIQUE DES VERSIONS
 
-| Version | Date       | Auteur           | Description         |
-|--------:|------------|------------------|---------------------|
-|  v1.0.0 | 11/03/2026 | Elisée Desmarest | Création du contenu |
+| Version | Date       | Auteur           | Description              |
+|--------:|------------|------------------|--------------------------|
+|  v1.0.0 | 11/03/2026 | Elisée Desmarest | Initialisation du projet |
 
 ## 1. CONTEXT DU PROJET
 
