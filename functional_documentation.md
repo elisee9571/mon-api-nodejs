@@ -122,7 +122,7 @@ Scénario d'erreur : Identifiant invalide
 Acteur : Utilisateur
 
 Donnée d'entrée :
-Le cas commence lorsque l'utilisateur est authentifié clique sur le bouton se connecter.
+Le cas commence lorsque l'utilisateur est authentifié clique sur le bouton créer un post.
 
 Scénario principal :
     1. Le système demande à l'utilisateur de saisir titre, contenu et statut.
