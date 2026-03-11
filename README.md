@@ -40,7 +40,7 @@ Ce projet est destiné à des devéloppeurs qui souhaite avoir un back qui commu
 }
 ```
 
-## Instruction d'utilisation
+## Instructions d'utilisation
 > Pour commencer à utiliser l'api, vous devez créer un repository en amont sur votre gitbub.
 
 ### Installer le projet
