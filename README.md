@@ -54,7 +54,7 @@ Ce projet est destiné à des devéloppeurs qui souhaite avoir un back qui commu
    ```BASH
    cd nom-dossier-projet/
    git add remote origin https://github.com/votre-pseudo/votre-repository.git
-   git push -u origin nom-branch
+   git push -u origin main
    ```
 
 3. Installer les dépendances
