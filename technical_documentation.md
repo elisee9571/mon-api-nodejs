@@ -94,4 +94,4 @@ mon-api-nodejs
 
 ## 7. TESTS
 ### 7.1 Tests d'intégration
-- Tests API via [Postman](https://postman.com)
+- Tests API via [Postman](https://documenter.getpostman.com/view/25748673/2sBXiesZij)
