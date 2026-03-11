@@ -4,12 +4,16 @@
 
 # Mon API nodejs
 
+***
+
 # Table des matières
 
 - [DOCUMENT DE SPÉCIFICATIONS FONCTIONNELLES][1]
 - [DOCUMENTATION TECHNIQUE][2]
 
 [1]: ./functional_documentation.md
+
+***
 
 ## Description du projet
 Il s'agit d'une API REST pour la gestion centralisé d'un forum
@@ -87,6 +91,3 @@ REDIS_URL=redis://localhost:6379
 ```BASH
 npm run start
 ```
-   
-
-   
