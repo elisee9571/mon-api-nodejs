@@ -1,6 +1,6 @@
 ![npm badge](https://img.shields.io/badge/npm-v11.9.0-green)
 ![node badge](https://img.shields.io/badge/node-v25.6.1-green)
-![javascript badge](https://img.shields.io/badge/javascript-green)
+![javascript badge](https://img.shields.io/badge/javascript-yellow)
 
 # Mon API nodejs
 
