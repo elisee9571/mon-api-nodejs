@@ -12,6 +12,7 @@
 - [DOCUMENTATION TECHNIQUE][2]
 
 [1]: ./functional_documentation.md
+[2]: ./technical_documentation.md
 
 ***
 
